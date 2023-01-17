@@ -37,10 +37,9 @@
     </header>
 
     <div>
-      <VAlert type="warning">
-        <strong>Warning:</strong>
-        Nuxt 3 is currently still in Release Candiate so I wouldn't recommend it
-        for production use because of possible breaking changes.
+      <VAlert type="success">
+        <strong>Happy:</strong>
+        Nuxt 3 is currently stable
       </VAlert>
       <ExamplesLogos />
     </div>
@@ -77,16 +76,16 @@
           {{ title }}
         </h1>
         <div class="mt-4 text-gray-700 dark:text-gray-200">
-          <p>Created by Bryant Gillespie</p>
-          <NuxtLink to="https://twitter.com/bryantgillespie" target="_blank"
-            >@bryantgillespie</NuxtLink
+          <p>Created by Chinmai Bharadwaj</p>
+          <NuxtLink to="https://twitter.com/chinmai_d" target="_blank"
+            >@chinmai_d</NuxtLink
           >
         </div>
       </div>
 
       <div class="flex items-center justify-end p-4 space-x-2">
         <NuxtLink
-          to="https://github.com/bryantgillespie/nuxt3-directus-starter"
+          to="https://github.com/hermitslash"
           target="_blank"
           class="p-1 dark:text-primary-200 dark:hover:text-primary-400 text-primary-700 hover:text-primary-900"
         >
@@ -112,7 +111,7 @@
 </template>
 
 <script setup>
-const title = 'Directus & Nuxt 3 Starter'
+const title = 'TRMIO LMS'
 useHead({
   title: title,
 })
